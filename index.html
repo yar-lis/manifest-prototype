@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -23,14 +24,26 @@
     <section id="game">
       <h2>Мини-игра</h2>
       <p>Потренируй навык управления бюджетом в игровом формате</p>
+      <button id="openModal">Запустить игру</button>
     </section>
     <section id="profile">
       <h2>Профиль и достижения</h2>
       <p>Следи за достижениями и уровнем финансовой грамотности</p>
     </section>
   </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h3>Добро пожаловать в мини-игру!</h3>
+      <p>Распредели бюджет на месяц: жильё, еда, транспорт, развлечения и сбережения.</p>
+    </div>
+  </div>
+
   <footer>
     <p>© 2025 MANIфест</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
